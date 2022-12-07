@@ -25,3 +25,8 @@ Hi! I am a person who changes his life and field of activity to web development.
 </style>
 <div class="relative-position">Text</div>
 ```
+### **Education**
+Samara State Construction University
+ 
+### **Languages**
+English: A2 Pre-intermediate
