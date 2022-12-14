@@ -22,8 +22,16 @@ body {
     float: right;
 }
 
+.nav {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    text-transform: uppercase;
+}
+
 .nav-item {
-    display: block;
     padding: 10px;
     font-weight: 700;
     text-decoration: none;
