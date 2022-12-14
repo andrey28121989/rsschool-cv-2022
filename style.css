@@ -1,0 +1,30 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: gray;
+    line-height: 1.5;
+    margin: 0;
+    padding: 2rem;
+}
+
+.container-header {
+    margin: 20px auto;
+    color: rgb(68, 68, 70);
+}
+
+.left-header {
+    float: left;
+}
+
+.image {
+    float: right;
+}
+
+.nav-item {
+    display: block;
+    padding: 10px;
+    font-weight: 700;
+    text-decoration: none;
+}
