@@ -8,20 +8,19 @@ body {
     margin: 0;
     padding: 2rem;
 }
-
 .container-header {
     margin: 20px auto;
     color: rgb(68, 68, 70);
 }
-
+a {
+    color: black;
+}
 .left-header {
     float: left;
 }
-
 .image {
     float: right;
 }
-
 .nav {
     padding: 0;
     display: flex;
@@ -30,9 +29,30 @@ body {
     list-style: none;
     text-transform: uppercase;
 }
-
 .nav-item {
     padding: 10px;
     font-weight: 700;
     text-decoration: none;
+}
+footer {
+    opacity: 0.9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 4px 0px 4px;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    background-color: var(--dark-gray-color);
+}
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+footer .github-icon {
+    margin-right: 10px;
+}
+.my-github {
+    display: flex;
+    align-items: center;
 }
