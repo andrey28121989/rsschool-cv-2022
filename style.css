@@ -16,11 +16,11 @@ a {
     color: black;
 }
 .left-header {
-    float: left;
-    padding: 100px 0px 0px 250px;
+    float: right;
+    padding: 100px 150px 0px 110px;
 }
 .image {
-    float: right;
+    float: left;
     
 }
 .profile-foto {
@@ -45,21 +45,20 @@ a {
     font-weight: 700;
     text-decoration: none;
 }
-#contacts {
-    float: right;
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
-#about {
-    float: left;
-}
-#education {
-    float: right;
-}
-#experience {
-    float: left;
-}
+
 #code-example {
     float: right;
 }
+.section {
+    box-sizing: border-box;
+    width: 50%;
+}
+
 .summary {
     background-color:#686969;
     padding: 0px 6px 0px 6px;
