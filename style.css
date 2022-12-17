@@ -63,6 +63,7 @@ a {
 #code-example {
     float: right;
     scroll-behavior: smooth; 
+    padding: 15px 0px 8px 0px;
 }
 .section {
     box-sizing: border-box;
