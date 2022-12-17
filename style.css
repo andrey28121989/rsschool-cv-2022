@@ -1,0 +1,129 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: gray;
+    line-height: 1.5;
+    margin: 20px auto;
+    width: 80vw;
+}
+.container-header {
+    margin: 20px auto;
+    background-color: rgb(75, 74, 74);
+    color: black;
+}
+a {
+    color: black;
+}
+.header {
+    float: right;
+    padding: 100px 150px 0px 110px;
+    color: white;
+}
+.image {
+    float: left;
+    
+}
+.profile-foto {
+    border-radius: 50%;
+}
+.nav {
+    padding: 0;
+    flex-wrap: wrap;
+    list-style: none;
+    text-transform: uppercase;
+    color: black;
+}
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    
+}
+.nav-item {
+    padding: 10px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#about {
+    color: white;
+}
+#experience {
+    color: white;
+}
+#code-example {
+    float: right;
+    scroll-behavior: smooth; 
+}
+.section {
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.summary {
+    background-color:#686969;
+    padding: 0px 6px 0px 6px;
+    margin: -16px 0px 0px 0px;
+}
+.summary p {
+    padding: 2px;
+}
+.languages {
+    padding: 0px 0px 0px 82px;;
+}
+.skill {
+    background-color:#686969;
+    margin: 0px 0px 0px 13px;
+    padding: 0px 0px 0px 0px;
+    list-style-type: none;
+}
+.skill p {
+    color: white;
+    padding: 4px 0px 0px 6px;
+}
+.level-skill-block {
+    display: grid;
+    grid-template-columns: repeat(5, 58px);
+    grid-auto-rows: 6px;
+    grid-gap: 2px;
+    justify-content: start;
+    margin: -14px 0px -10px 0px;
+}
+.filled-block {
+    background-color: darkkhaki;
+}
+.empty-block {
+    background-color: black;
+}
+
+footer {
+    opacity: 0.9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 4px 0px 4px;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    background-color: rgb(75, 74, 74);
+}
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+footer .github-icon {
+    margin-right: 10px;
+}
+.my-github {
+    display: flex;
+    align-items: center;
+}
